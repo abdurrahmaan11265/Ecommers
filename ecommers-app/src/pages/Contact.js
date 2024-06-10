@@ -3,6 +3,7 @@ import BreadCrumb from '../components/BreadCrumb';
 import Meta from '../components/Meta';
 import { IoHomeOutline, IoMailOpenOutline, IoInformationOutline } from "react-icons/io5";
 import { FiPhoneCall } from "react-icons/fi";
+import Container from '../components/Container';
 
 
 function Contact() {
@@ -10,8 +11,7 @@ function Contact() {
     <>
       <Meta title='Contact Us' />
       <BreadCrumb title='Contact Us' />
-      <div className="contact-wrapper py-5 home-wrapper-2">
-        <div className="container-xxl">
+      <Container class1="contact-wrapper py-5 home-wrapper-2">
           <div className="row">
             <div className="col-12">
               <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121347.5479121636!2d83.3896118!3d18.112670500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a3be517fcf0885f%3A0xe85104bb5f291d8d!2sVizianagaram%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1715402773086!5m2!1sen!2sin"
@@ -74,8 +74,7 @@ function Contact() {
               </div>
             </div>
           </div>
-        </div>
-      </div>
+      </Container>
     </>
   )
 }

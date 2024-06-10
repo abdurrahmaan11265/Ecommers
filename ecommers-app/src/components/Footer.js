@@ -45,7 +45,7 @@ const Footer = () => {
                 </address>
                 <a href="tel:+919440181136" className='mt-3 d-block mb-2 text-white'>+91 9440181136</a>
                 <a href="mailto:abdurrahmaan11265@gmail.com" className='mt-2 d-block mb-0 text-white'>abdurrahmaan11265@gmail.com</a>
-                <dic className="social-icons d-flex align-items-center gap-30 mt-4">
+                <div className="social-icons d-flex align-items-center gap-30 mt-4">
                   <Link className='text-white'>
                     <BsLinkedin className='fs-4'/>
                   </Link>
@@ -58,7 +58,7 @@ const Footer = () => {
                   <Link className='text-white'>
                     <BsGithub className='fs-4'/>
                   </Link>
-                </dic>
+                </div>
               </div>
             </div>
             <div className="col-3">
